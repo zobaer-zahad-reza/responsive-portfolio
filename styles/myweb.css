@@ -247,7 +247,15 @@ footer input[type="text"],footer input[type="email"],footer textarea{
 
 /* Media Query */
 @media screen and (max-width: 576px) {
-    .skills-container , .resume-container{
+    .skills-container , .resume-container , footer{
         flex-direction: column;
+    }
+    footer{
+        padding: 20px;
+        margin-right: -200px;
+        /* align-items: center; */
+    }
+    .footer-title{
+        margin-top: -30px;
     }
 }
