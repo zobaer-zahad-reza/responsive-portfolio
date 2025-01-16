@@ -251,7 +251,8 @@ footer input[type="text"],footer input[type="email"],footer textarea{
     .skills-container ,
      .resume-container ,
       footer ,
-      .about-items{
+      .about-items ,
+      .banner{
         flex-direction: column;
     }
     footer{
@@ -267,6 +268,15 @@ footer input[type="text"],footer input[type="email"],footer textarea{
         margin-top: -40px;
     }
     .about{
-        padding: 0px;
+        padding-left: 0px;
+    }
+    .banner{
+        margin-left: 5px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile-pic{
+        width: 100%;
     }
 }
