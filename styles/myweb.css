@@ -220,7 +220,6 @@ footer{
     padding: 130px 100px;
     gap: 100px;
     margin-top: 100px;
-    width: 90%;
 }
 .footer-icon a img{
     margin-right: 10px;
@@ -249,12 +248,16 @@ footer input[type="text"],footer input[type="email"],footer textarea{
 
 /* Media Query */
 @media screen and (max-width: 576px) {
-    .skills-container , .resume-container , footer{
+    .skills-container ,
+     .resume-container ,
+      footer ,
+      .about-items{
         flex-direction: column;
     }
     footer{
         padding: 20px;
         margin-right: -250px;
+        width: 100%;
         text-align: center;
     }
     footer input[type="text"],footer input[type="email"],footer textarea {
@@ -262,5 +265,8 @@ footer input[type="text"],footer input[type="email"],footer textarea{
     }
     .footer-title-lasth3{
         margin-top: -40px;
+    }
+    .about{
+        padding: 10px;
     }
 }
