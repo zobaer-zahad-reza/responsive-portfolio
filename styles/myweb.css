@@ -253,9 +253,12 @@ footer input[type="text"],footer input[type="email"],footer textarea{
     footer{
         padding: 20px;
         margin-right: -200px;
-        /* align-items: center; */
+        margin-right: -250px;
     }
-    .footer-title{
-        margin-top: -30px;
+    footer input[type="text"],footer input[type="email"],footer textarea{
+        width: calc( 100% - 40px);
+    }
+    .footer-title-lasth3{
+        margin-top: -40px;
     }
 }
