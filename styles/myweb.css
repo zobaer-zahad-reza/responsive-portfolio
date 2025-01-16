@@ -247,7 +247,7 @@ footer input[type="text"],footer input[type="email"],footer textarea{
 
 /* Media Query */
 @media screen and (max-width: 576px) {
-    .skills-container{
+    .skills-container , .resume-container{
         flex-direction: column;
     }
 }
